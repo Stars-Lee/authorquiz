@@ -1,0 +1,108 @@
+.word1{
+    position: absolute;
+    margin-left: 3px;
+    font-weight: bold;
+    left: 165px;
+    top: 10px;
+}
+.link{
+    color: black;
+}
+
+.header{
+    position: relative;
+}
+.rightHeader{
+    position: absolute;
+    right: 10%;
+    display: inline-block;
+    padding: 4px;
+}
+
+
+.authorCard1{
+    margin: 1px;
+    left: 10%;
+    width: 80%;
+    position: relative;  
+    visibility: visible;
+}
+
+
+.authorCard{
+    margin: 1px;
+    left: 10%;
+    width: 80%;
+    position: relative;  
+    visibility: hidden;
+}
+
+form{
+    border: thin solid #dddddd;
+    padding: 2rem;
+    margin-top: 50px;
+    margin-bottom: 0rem;
+    /* display: flex; */
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10%;
+    width: fit-content;
+    display: inline-block;
+}
+.button{
+    border: thin solid #dddddd;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-bottom: 0;
+    /* display: flex; */
+    justify-content: center;
+    padding: 5px;
+    margin-left: 10%;
+}
+.authorP{
+    margin-left: 10%;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.card{
+    margin: 1px;
+    left: 10%;
+    width: 50%;
+    position: relative;   
+}
+
+.image{
+    width: 120px;
+    height: 160px;
+}
+.word{
+    position: absolute;
+    margin-left: 3px;
+    font-weight: bold;
+    left: 165px;
+    top: 10px;
+}
+.word .name{
+    left:6px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.word1 .name{
+    left:6px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.books{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.delete{
+    position: absolute;
+    left: 100%;
+    bottom: 30%;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}

@@ -1,0 +1,47 @@
+.bookCard{
+    margin: 1px;
+    left: 0%;
+    width: 70%;
+    border: thin solid #dddddd;
+    justify-content: center;
+    margin-left: 10%;
+    position: relative;
+}
+.bookName{
+    margin-left: 2px;
+    font-weight: bold;
+}
+p{
+    margin: 2px;
+    display: inline-block;
+}
+.authorName{
+    position: absolute; 
+    left: 60%;
+    display: inline-block;
+}
+
+.showCard{
+    margin: 1px;
+    
+    /* width: 70%; */
+    position: relative;  
+    visibility: visible;
+}
+.notShowCard{
+    margin: 1px;
+    /* left: 10%; */
+    /* width: 70%; */
+    position: relative;  
+    visibility: hidden;
+}
+.bookList{
+    margin-left: 2px;
+    font-weight: bold;
+    margin-left: 10%;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+form{
+    margin-top: 50px;
+}
